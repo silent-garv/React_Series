@@ -6,12 +6,16 @@ function App() {
   let [counter, setCounter] = useState(15) //hook 
 
   const addValue = () => { //arrow function to add value
+    if (counter < 20){
     setCounter(counter + 1)
+    }
   }
 
   const removeValue = () => {
+    if (counter > 0){
     setCounter(counter - 1)
   }
+}
 
   return (
     <>
