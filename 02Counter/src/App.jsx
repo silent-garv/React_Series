@@ -3,7 +3,7 @@ import './App.css'
 import React, { useState } from 'react' //use to imnport react and useState hook
 
 function App() {
-  let [counter, setCounter] = useState(15) //hook 
+  let [counter, setCounter] = useState(15) //hook  
 
   const addValue = () => { //arrow function to add value
     if (counter < 20){
